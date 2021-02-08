@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/*
+font-family: 'Do Hyeon', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+*/
+/* index.css */
+@import "header.css";
+@import "container.css";
+@import "controller.css";
+@import "com.css";
+@import "card.css";
+@import "footer.css";
+
+/* goodsList.css */
+
+@import "goods/goodsList.css";
+@import "goods/goodscard.css";
+@import "goods/modal.css";
+@import "goods/totalmoney.css";
+
+/* bbs.css */
+@import "bbs/boardList.css";
+
+/* admin.css */
+
+@import "admin/admin.css";
+
+/* today.css */
+@import "today/today.css";
+
+/* listAdd.css */
+@import "listadd/listAdd.css";
+
+h1, h2, h3, h4, .navbar-brand {
+	font-family: 'Do Hyeon', sans-serif;
+	color: #4A148C;
+}
+
+body {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navbar {
+	border-bottom: #E53935 3px solid;
+}
+input::-webkit-input-placeholder{
+	text-align: center;
+}
